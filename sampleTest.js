@@ -5,7 +5,7 @@ const { Builder, By, Key, until } = require("selenium-webdriver");
     let driver = await new Builder().forBrowser("chrome").build();
     try {
       await driver.manage().setTimeouts({ implicit: 1000 });
-      await driver.get("http://www.google.com");
+      await driver.get("https://www.elefin.id/");
       // await driver.manage().window().fullscreen()
 
       await driver
